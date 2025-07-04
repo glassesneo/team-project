@@ -1,34 +1,52 @@
+
 <!DOCTYPE html>
 <html lang="ja">
-<head>
+  <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>レシピ１</title>
-</head>
-<body>
-
-    <header>
-        <div class="site-logo">サイトロゴ</div>
-        <nav>
-            <ul>
-                <li><a href="../index.html">トップページ</a></li> <li><a href="recipe2.html">メンバー2のサイト</a></li> <li><a href="recipe3.html">メンバー3のサイト</a></li>  </ul>
-        </nav>
-    </header>
-
-    <main>
-        <section class="item-details">
-            <h2>料理名</h2>
-            <div class="item-details-content">
-                <div class="main-image-container">
-                    メイン画像
-                </div>
-                <div class="item-info">
-                    <p class="item-description">
-                        ここにアイテム（料理）の詳しい説明文が入ります。どのようなインパクトがあるのか、味の特徴などを記述します。
-                    </p>
-                </div>
-            </div>
-        </section>
-    </main>
-</body>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>簡単ズボラたまごかけご飯</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body class="bg-base-200 min-h-screen">
+    <div class="hero bg-base-200 min-h-[30vh]">
+      <div class="hero-content flex flex-col items-center text-center w-full">
+        <div class="max-w-md md:max-w-2xl lg:max-w-3xl">
+          <h1 class="text-3xl md:text-5xl font-bold mb-4">簡単ズボラたまごかけご飯</h1>
+          <p class="mb-2 text-base md:text-lg">要時間はたったの５分！ササッと済ませたいときにおすすめ。</p>
+        </div>
+      </div>
+    </div>
+    <div class="flex flex-col items-center mt-8 px-2">
+      <div class="card bg-base-100 w-80 sm:w-96 md:w-[32rem] lg:w-[36rem] shadow-md px-2 md:px-6 py-4">
+        <figure class="pt-4"><img src="../TKG1.png" alt="簡単ズボラたまごかけご飯" class="rounded-xl w-full h-auto object-cover max-h-72" /></figure>
+        <div class="card-body">
+          <h2 class="card-title text-xl md:text-2xl">材料</h2>
+          <ul class="list-disc list-inside mb-4 text-left text-base md:text-lg">
+            <li>ご飯…一杯分</li>
+            <li>卵…1個</li>
+            <li>オリーブオイル…小さじ1</li>
+            <li>鶏がらスープの素（顆粒）…小さじ1</li>
+            <li>おろしにんにく…適量</li>
+            <li>粉チーズ…適量</li>
+            <li>塩…適量</li>
+            <li>黒こしょう…適量</li>
+          </ul>
+          <h2 class="card-title text-xl md:text-2xl">作り方</h2>
+          <ol class="list-decimal list-inside mb-4 text-left text-base md:text-lg">
+            <li>ご飯、オリーブオイル、鶏がらスープの素、おろしにんにくを混ぜる</li>
+            <li>ご飯の上に卵を割る</li>
+            <li>粉チーズ、塩、黒こしょうを振ったらできあがり</li>
+          </ol>
+          <h2 class="card-title text-xl md:text-2xl">ポイント</h2>
+          <ul class="list-disc list-inside text-left text-base md:text-lg">
+            <li>おろしにんにくを混ぜて下味をつけることで、味がご飯にしっかり馴染む</li>
+            <li>鶏がらスープの風味が利いておいしい</li>
+            <li>粉チーズを多くするとカルボナーラに似た味になる</li>
+          </ul>
+        </div>
+      </div>
+      <a href="../index.html" class="btn btn-outline mt-8 w-full max-w-xs md:max-w-sm">← 一覧に戻る</a>
+    </div>
+  </body>
 </html>
