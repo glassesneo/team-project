@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+ 
  <!DOCTYPE html>
  <html lang="ja">
    <head>
@@ -53,3 +55,39 @@
      </div>
    </body>
  </html>
+=======
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>レシピ3</title>
+</head>
+<body>
+
+    <header>
+        <div class="site-logo">サイトロゴ</div>
+        <nav>
+            <ul>
+                <li><a href="../index.html">トップページ</a></li> <li><a href="recipe1.html">メンバー1のサイト</a></li> <li><a href="recipe2.html">メンバー2のサイト</a></li> <li><a href="recipe4.html">メンバー4のサイト</a></li> <li><a href="recipe5.html">メンバー5のサイト</a></li>  </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="item-details">
+            <h2>料理名</h2>
+            <div class="item-details-content">
+                <div class="main-image-container">
+                    メイン画像
+                </div>
+                <div class="item-info">
+                    <p class="item-description">
+                        ここにアイテム（料理）の詳しい説明文が入ります。どのようなインパクトがあるのか、味の特徴などを記述します。
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
+>>>>>>> 0d87ddd6d837361df43cf38bd2ced9084e7b2f8a
