@@ -7,65 +7,42 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
-  <body>
-
-    <div class="hero bg-base-200 min-h-[50vh] md:min-h-screen">
-        <div class="hero-content text-center">
-            <div class="max-w-md">
-              <h1 class="text-3xl md:text-5xl font-bold">ズボラ飯を紹介</h1>
-            </div>
-        </div>
+<body class="bg-base-200 min-h-screen">
+  <div class="hero bg-base-200 min-h-[40vh]">
+    <div class="hero-content flex flex-col items-center text-center w-full">
+      <div class="max-w-xl">
+        <h1 class="text-4xl md:text-6xl font-bold mb-2">ズボラ飯レシピ集</h1>
+        <p class="text-base md:text-lg text-base-content/70 mb-4">手軽で美味しい、時短ごはんを紹介します</p>
+      </div>
     </div>
-
-    <div class="flex flex-wrap justify-center">
-
-      <div class="card bg-base-100 w-80 sm:w-96 m-4 md:m-8 shadow-sm">
-        <figure>
-          <img
-            src="TKG1.png"
-            alt="簡単ズボラたまごかけご飯" />
-        </figure>
-        <div class="card-body">
-          <h2 class="card-title">簡単ズボラたまごかけご飯</h2>
-          <div class="card-actions justify-end">
-            <a class="btn btn-primary" href="recipes/recipe1.html">Read more →</a>
-          </div>
+  </div>
+  <div class="container mx-auto px-2 py-8">
+    <div class="grid gap-8 md:grid-cols-3">
+      <div class="card bg-base-100 shadow-lg hover:shadow-xl transition-shadow duration-200">
+        <figure class="p-4"><img src="TKG1.png" alt="簡単ズボラたまごかけご飯" class="rounded-xl w-full h-48 object-cover" /></figure>
+        <div class="card-body items-center text-center">
+          <h2 class="card-title text-lg md:text-xl">簡単ズボラたまごかけご飯</h2>
+          <a class="btn btn-primary btn-sm mt-2" href="recipes/recipe1.html">詳しく見る</a>
         </div>
       </div>
-
-
-      <div class="card bg-base-100 w-80 sm:w-96 m-4 md:m-8 shadow-sm">
-        <figure>
-          <img
-            src="Saba rice.png"
-            alt="ズボラサバ缶ご飯" />
-        </figure>
-        <div class="card-body">
-          <h2 class="card-title">レシピ2</h2>
-          <div class="card-actions justify-end">
-            <a class="btn btn-primary" href="recipes/recipe2.html">Read more →</a>
-          </div>
+      <div class="card bg-base-100 shadow-lg hover:shadow-xl transition-shadow duration-200">
+        <figure class="p-4"><img src="Saba rice.png" alt="ズボラサバ缶ご飯" class="rounded-xl w-full h-48 object-cover" /></figure>
+        <div class="card-body items-center text-center">
+          <h2 class="card-title text-lg md:text-xl">ズボラサバ缶ご飯</h2>
+          <a class="btn btn-primary btn-sm mt-2" href="recipes/recipe2.html">詳しく見る</a>
         </div>
       </div>
-
-      <div class="card bg-base-100 w-80 sm:w-96 m-4 md:m-8 shadow-sm">
-        <figure>
-          <img
-            src="cheese risotto.png"
-            alt="簡単チーズリゾット風ご飯" />
-        </figure>
-        <div class="card-body">
-          <h2 class="card-title">レシピ3</h2>
-          <div class="card-actions justify-end">
-            <a class="btn btn-primary" href="recipes/recipe3.html">Read more →</a>
-          </div>
+      <div class="card bg-base-100 shadow-lg hover:shadow-xl transition-shadow duration-200">
+        <figure class="p-4"><img src="cheese risotto.png" alt="簡単チーズリゾット風ご飯" class="rounded-xl w-full h-48 object-cover" /></figure>
+        <div class="card-body items-center text-center">
+          <h2 class="card-title text-lg md:text-xl">簡単チーズリゾット風ご飯</h2>
+          <a class="btn btn-primary btn-sm mt-2" href="recipes/recipe3.html">詳しく見る</a>
         </div>
       </div>
     </div>
-    
-    <div id="app"></div>
-    <script type="module" src="/src/main.ts"></script>
-
-  </body>
+  </div>
+  <div id="app"></div>
+  <script type="module" src="/src/main.ts"></script>
+</body>
 </html>
 
