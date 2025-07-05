@@ -3,48 +3,15 @@
    <head>
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1">
-     <title>ズボラサバ缶ご飯</title>
+     <title>recipe2</title>
      <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
      <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
    </head>
    <body class="bg-base-200 min-h-screen">
-     <div class="hero bg-base-200 min-h-[30vh]">
-       <div class="hero-content flex flex-col items-center text-center w-full">
-         <div class="max-w-md md:max-w-2xl lg:max-w-3xl">
-           <h1 class="text-3xl md:text-5xl font-bold mb-4">ズボラサバ缶ご飯</h1>
-           <p class="mb-2 text-base md:text-lg">所要時間：5分以内。サバ缶の旨味とごま油・マヨネーズのコクが絶妙！</p>
-         </div>
-       </div>
-     </div>
-     <div class="flex flex-col items-center mt-8 px-2">
-       <div class="card bg-base-100 w-80 sm:w-96 md:w-[32rem] lg:w-[36rem] shadow-md px-2 md:px-6 py-4">
-         <figure class="pt-4"><img src="/images/Saba rice.png" alt="ズボラサバ缶ご飯" class="rounded-xl w-full h-auto object-cover max-h-72" /></figure>
-         <div class="card-body">
-           <h2 class="card-title text-xl md:text-2xl">材料</h2>
-           <ul class="list-disc list-inside mb-4 text-left text-base md:text-lg">
-             <li>温かいごはん：お茶碗に軽く1杯</li>
-             <li>サバ缶：1缶（味噌煮、醤油煮、水煮などお好みのもの）</li>
-             <li>長ねぎ（または小ねぎ）：約5cm分</li>
-             <li>ごま油：小さじ1〜2</li>
-             <li>マヨネーズ：お好みの量</li>
-             <li>七味唐辛子：少々</li>
-           </ul>
-           <h2 class="card-title text-xl md:text-2xl">作り方</h2>
-           <ol class="list-decimal list-inside mb-4 text-left text-base md:text-lg">
-             <li>サバ缶を開け、中のサバを汁ごとごはんの上にのせる（汁も全部かける）</li>
-             <li>上から刻んだネギをたっぷり散らす</li>
-             <li>ごま油を全体に回しかける</li>
-             <li>マヨネーズをお好みの量かけ、最後に七味唐辛子を振りかければ完成！</li>
-           </ol>
-           <h2 class="card-title text-xl md:text-2xl">ポイント・アレンジ</h2>
-           <ul class="list-disc list-inside text-left text-base md:text-lg">
-             <li>サバ缶の種類で楽しむ：味噌煮缶は甘辛く濃厚、水煮缶は醤油を足すとさっぱり</li>
-             <li>ちょい足し：刻み海苔、白ごま、温泉卵、卵黄などで風味やコクアップ</li>
-             <li>温めるとさらに美味しい：サバ缶を耐熱皿に移し、ラップして電子レンジで1分温めてからのせると香りUP</li>
-           </ul>
-         </div>
-       </div>
-       <a href="../index.html" class="btn btn-outline mt-8 w-full max-w-xs md:max-w-sm">← 一覧に戻る</a>
-     </div>
+     <div id="recipe-content"></div>
+     <script type="module">
+       import { renderRecipePage } from "../src/recipePage.ts";
+       renderRecipePage("recipe2");
+     </script>
    </body>
  </html>

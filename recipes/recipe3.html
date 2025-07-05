@@ -3,53 +3,15 @@
    <head>
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1">
-     <title>簡単チーズリゾット風ご飯</title>
+     <title>recipe3</title>
      <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
      <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
    </head>
    <body class="bg-base-200 min-h-screen">
-     <div class="hero bg-base-200 min-h-[30vh]">
-       <div class="hero-content flex flex-col items-center text-center w-full">
-         <div class="max-w-md md:max-w-2xl lg:max-w-3xl">
-           <h1 class="text-3xl md:text-5xl font-bold mb-4">簡単チーズリゾット風ご飯</h1>
-           <p class="mb-2 text-base md:text-lg">牛乳とチーズで作る、優しくクリーミーなズボラ飯！</p>
-         </div>
-       </div>
-     </div>
-     <div class="flex flex-col items-center mt-8 px-2">
-       <div class="card bg-base-100 w-80 sm:w-96 md:w-[32rem] lg:w-[36rem] shadow-md px-2 md:px-6 py-4">
-         <figure class="pt-4"><img src="/images/cheese risotto.png" alt="簡単チーズリゾット風ご飯" class="rounded-xl w-full h-auto object-cover max-h-72" /></figure>
-         <div class="card-body">
-           <h2 class="card-title text-xl md:text-2xl">材料（1人分）</h2>
-           <ul class="list-disc list-inside mb-4 text-left text-base md:text-lg">
-             <li>温かいごはん（冷やごはんでもOK）：お茶碗1杯分</li>
-             <li>牛乳（または豆乳）：100ml</li>
-             <li>粉チーズ：大さじ2〜3（お好みの量で）</li>
-             <li>スライスチーズ（とろけるタイプ）なら1〜2枚でもOK</li>
-             <li>顆粒コンソメ：小さじ1</li>
-             <li>（お好みで）バター：5g</li>
-             <li>乾燥パセリ：少々</li>
-             <li>黒こしょう：少々</li>
-           </ul>
-           <h2 class="card-title text-xl md:text-2xl">作り方</h2>
-           <ol class="list-decimal list-inside mb-4 text-left text-base md:text-lg">
-             <li>スープカップのような少し深さのある耐熱容器に、ごはん、牛乳、顆粒コンソメを入れる（バターを入れる場合はここで加える）</li>
-             <li>スプーンでごはんを軽くほぐすように混ぜる</li>
-             <li>ふんわりとラップをかけ、電子レンジ（600W）で約2分加熱</li>
-             <li>加熱後、一度取り出して粉チーズ（またはスライスチーズ）を加え、全体をよくかき混ぜる</li>
-             <li>チーズが溶けて全体がとろりとクリーミーになったらOK</li>
-             <li>器に盛り付け、仕上げに黒こしょうや乾燥パセリを挽けば完成</li>
-           </ol>
-           <h2 class="card-title text-xl md:text-2xl">ポイント・アレンジ</h2>
-           <ul class="list-disc list-inside text-left text-base md:text-lg">
-             <li>ベーコンやきのこを最初に加えて加熱すると、より食べ応えのある一品に</li>
-             <li>牛乳を吸ったお米の柔らかさと、とろけるチーズが一体となった、優しくクリーミーな食感</li>
-             <li>チーズとバター（お好みで）の食欲をそそる香りと、黒こしょうの爽やかな香り</li>
-             <li>チーズの濃厚なコクと塩気が主役</li>
-           </ul>
-         </div>
-       </div>
-       <a href="../index.html" class="btn btn-outline mt-8 w-full max-w-xs md:max-w-sm">← 一覧に戻る</a>
-     </div>
+     <div id="recipe-content"></div>
+     <script type="module">
+       import { renderRecipePage } from "../src/recipePage.ts";
+       renderRecipePage("recipe3");
+     </script>
    </body>
  </html>
