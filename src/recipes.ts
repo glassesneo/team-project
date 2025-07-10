@@ -15,7 +15,7 @@ export const recipes: Recipe[] = [
     title: "簡単ズボラたまごかけご飯",
     image: "/images/TKG1.png",
     alt: "簡単ズボラたまごかけご飯",
-    description: "所要時間はたったの５分！ササッと済ませたいときにおすすめ。",
+    description: "所要時間はたったの5分！ササッと済ませたいときにおすすめ。",
     ingredients: [
       "ご飯…一杯分",
       "卵…1個",
