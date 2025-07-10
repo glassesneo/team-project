@@ -1,4 +1,11 @@
+import { headerHTML } from "./components.ts";
 import { recipes } from "./recipes.ts";
+
+const header = document.getElementById("header");
+
+if (header) {
+  header.innerHTML = headerHTML;
+}
 
 const recipesContainer = document.getElementById("recipes");
 

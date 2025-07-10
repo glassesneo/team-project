@@ -1,3 +1,4 @@
+import { headerHTML } from "./components.ts";
 import { recipes } from "./recipes.ts";
 
 export function renderRecipePage(slug: string) {
@@ -7,7 +8,7 @@ export function renderRecipePage(slug: string) {
   const container = document.getElementById("recipe-content");
   if (!container) return;
 
-  container.innerHTML = `
+  container.innerHTML = headerHTML + `
     <div class="hero bg-base-200 min-h-[30vh]">
       <div class="hero-content flex flex-col items-center text-center w-full">
         <div class="max-w-md md:max-w-2xl lg:max-w-3xl">
