@@ -1,4 +1,4 @@
-import { headerHTML } from "./components.ts";
+import { footerHTML, headerHTML } from "./components.ts";
 import { recipes } from "./recipes.ts";
 
 export function renderRecipePage(slug: string) {
@@ -43,5 +43,6 @@ export function renderRecipePage(slug: string) {
       </div>
       <a href="../index.html" class="btn btn-outline m-6 w-full max-w-xs md:max-w-sm">← 一覧に戻る</a>
     </div>
+    ${footerHTML}
   `;
 }

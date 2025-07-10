@@ -11,3 +11,11 @@ export const headerHTML = `
   </div>
 </div>
 `;
+
+export const footerHTML = `
+<footer class="footer footer-center p-4 bg-base-100 text-base-content mt-8">
+  <div>
+    <p>Copyright 2025 INIAD CS1 class 4 group 2</p>
+  </div>
+</footer>
+`;
