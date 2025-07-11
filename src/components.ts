@@ -1,7 +1,7 @@
 export const headerHTML = `
 <div class="navbar bg-base-100 shadow-lg rounded-b-lg">
   <div class="navbar-start">
-    <a href="/" class="flex items-center gap-2 p-1">
+    <a href="/team-project" class="flex items-center gap-2 p-1">
       <div class="avatar">
         <div class="w-10 h-10 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
           <img src="/team-project/images/icon.png" alt="ズボラ飯アイコン" />
