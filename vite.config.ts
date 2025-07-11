@@ -12,7 +12,7 @@ export default {
         recipe3: resolve(__dirname, "recipes/recipe3.html"),
         recipe4: resolve(__dirname, "recipes/recipe4.html"),
         recipe5: resolve(__dirname, "recipes/recipe5.html"),
-        recipe5: resolve(__dirname, "recipes/recipe6.html"),
+        recipe6: resolve(__dirname, "recipes/recipe6.html"),
         // Add more entries as needed
       },
     },
